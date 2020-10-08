@@ -8,6 +8,8 @@ import Home from '@/pages/Home'
 
 Vue.use(Router)
 
+// 这是soucreTree测试~~~~
+
 export default new Router({
     routes: [
         {

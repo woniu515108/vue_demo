@@ -1,6 +1,7 @@
 <template>
     <div class="login-page">
-        我是登陆页
+
+        <el-button type="primary" @click="submit">登陆</el-button>
 
     </div>
 </template>
@@ -11,6 +12,13 @@
         data () {
             return {
             msg: 'Welcome to Your Vue.js App'
+            }
+        },
+
+        methods: {
+            submit(){
+                console.log( "subnmoi" );
+                this.$router.replace("/")
             }
         }
     }
